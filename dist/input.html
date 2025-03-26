@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body class="tw-bg-slate-600 tw-flex tw-flex-col " >
+    <h1 class="heading">Rock Paper Scissor</h1>
+    <div class="tw-flex tw-justify-center tw-mt-10 tw-space-x-4  ">
+        <div class="choice " id="rock ">
+            <img src="images/rock.svg" alt="rock" class="tw-w-36 tw-h-36 hover:tw-border-8 tw-rounded-full hover:tw-border-slate-200 hover:tw-cursor-pointer ">
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.svg" alt="paper" class="tw-w-36 tw-h-36 hover:tw-border-8 tw-rounded-full hover:tw-border-slate-200 hover:tw-cursor-pointer ">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="images/scissor.svg" alt="scissors" class="tw-w-36 tw-h-36 hover:tw-border-8 tw-rounded-full hover:tw-border-slate-200 hover:tw-cursor-pointer ">
+        </div>
+    </div>
+    <!--Score Board-->
+    <div class="score-board tw-flex tw-justify-center tw-mt-10 tw-space-x-10 ">
+        <div class="score tw-text-center">
+            <p id="user-score" class="tw-font-bold tw-text-6xl tw-text-green-300">0</p>
+            <p class="tw-font-bold tw-text-2xl tw-text-white">You</p>
+        </div>
+        <div class="score tw-text-center">
+            <p id="computer-score" class="tw-font-bold tw-text-6xl tw-text-red-300">0</p>
+            <p class="tw-font-bold tw-text-2xl tw-text-white">Computer</p>
+        </div>
+    </div>
+    <!--Massage-->
+    <div class="msg-box tw-flex tw-justify-center tw-text-center tw-mt-20">
+        <p id="msg" class="tw-bg-black tw-text-white tw-w-36 tw-p-4 tw-font-medium tw-rounded-md hover:tw-shadow-sm hover:tw-w-40 hover:tw-text-lg hover:tw-cursor-pointer hover:tw-shadow-white "> Play your move</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
