@@ -23,5 +23,5 @@ A simple and interactive Rock Paper Scissors game built using **JavaScript** and
 3. The result is calculated and displayed instantly.
 4. The UI updates with Tailwind CSS animations and effects.
 
-## 📁 Project Structure
+## Check out here : https://krishhmakharia.github.io/Rock-Paper-Scissor/
 
