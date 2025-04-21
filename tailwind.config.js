@@ -2,7 +2,7 @@
 module.exports = {
   prefix:'tw-', // prefix for all classes
   important: true,
-  content: ["./dist/*.{html,js}"],
+  content: ["./docs/*.{html,js}"],
   theme: {
     extend: {
     },
